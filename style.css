@@ -1,0 +1,28 @@
+
+
+/* Assignment css: */
+
+body{ background: #eeeeee; padding: 0; margin: 0; display: inline;}
+header{width: 100%; display: block; text-align: center; padding: 25px 0px;}
+.sample-box{ margin:0px 5px 0px 20px;  width: 27%; min-height: auto; display: inline-block; background: #fff; border: 2px solid #0e0d0d;}
+.sample-box h2{ margin: 0; text-align: right; float: right; padding: 0px 10px 0px 0px;  border: 1px solid #999; width: 30%;}
+.sample-box p{padding: 10px;}
+.clear{ clear: both;}
+
+.c-pink{background-color: #d324a7;}
+.c-red{background-color: #ff0000;}
+.c-yellow{background-color: #fff000;}
+
+   
+/* For Tablate View: */
+@media (max-width: 991px) { 
+
+    .sample-box{width:45%; margin: 10px 10px 5px 19px;}
+    .wid-100{width: 95%;}
+}
+
+/* For Mobile View: */
+@media (max-width: 767px) { 
+    .sample-box{width: auto; margin: 15px 15px 0px 15px;}
+
+}
